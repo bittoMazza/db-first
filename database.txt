@@ -1,0 +1,25 @@
+Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario
+
+Nome tabella : automobili
+
+id -- intero -- SMALLINT -- PRIMARY_KEY -- AUTO_INCREMENT
+targa -- stringa -- VARCHAR(15) -- NULL
+condizione_auto -- stringa -- VARCHAR(15) -- NOTNULL  // Usata - Nuova;
+num_posti -- intero -- TINYINT -- NOTNULL
+num_porte -- intero -- TINYINT -- NOTNULL
+modello -- stringa -- VARCHAR(50) -- NOTNULL
+classe_emissioni -- stringa -- VARCHAR(15) -- NOTNULL // Esempio : Euro 4 Diesel 
+prezzo -- float -- FLOAT(8,2) -- NOTNULL
+prezzo_rateizzato -- float -- FLOAT(6,2) -- NULL
+marca -- stringa -- VARCHAR(15) -- NOTNULL
+colore -- stringa -- VARCHAR(20) -- NOTNULL
+alimentazione -- stringa -- VARCHAR(20) -- NOTNULL
+num_km -- intero --  MEDIUMINT -- NOTNULL
+anno_produzione -- data -- YEAR -- NOTNULL
+cilindrata -- stringa -- VARCHAR(10) -- NOTNULL // Esempio : 150CV 
+tipo_cambio -- stringa -- VARCHAR(10) -- NOTNULL // Automatico o Manuale
+qualità_interni -- stringa -- VARCHAR(15) -- NULL // Ipotizziamo di aver un indicatore che indica la qualità con "Buono","Eccellente" ecc...
+qualità_esterno -- stringa -- VARCHAR(15) -- NULL
+foto_interni -- stringa -- TEXT -- NOTNULL
+foto_esterno -- stringa -- TEXT -- NOTNULL
+
