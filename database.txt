@@ -16,7 +16,7 @@ colore -- stringa -- VARCHAR(20) -- NOTNULL
 alimentazione -- stringa -- VARCHAR(20) -- NOTNULL
 num_km -- intero --  MEDIUMINT -- NOTNULL
 anno_produzione -- data -- YEAR -- NOTNULL
-cilindrata -- stringa -- VARCHAR(10) -- NOTNULL // Esempio : 150CV 
+cilindrata -- stringa -- VARCHAR(10) -- NOTNULL 
 tipo_cambio -- stringa -- VARCHAR(10) -- NOTNULL // Automatico o Manuale
 qualità_interni -- stringa -- VARCHAR(15) -- NULL // Ipotizziamo di aver un indicatore che indica la qualità con "Buono","Eccellente" ecc...
 qualità_esterno -- stringa -- VARCHAR(15) -- NULL
